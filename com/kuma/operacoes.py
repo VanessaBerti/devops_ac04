@@ -1,9 +1,6 @@
 class Operacoes():
-	def divisao(self,valores):
-		val = 0
-		for v in valores:
-			val = val / v
-		
-		return val 
-	
-	
+	def eh_primo(num):
+		for i in range(2, num // 2):
+			if num % i == 0:
+				return False
+		return True

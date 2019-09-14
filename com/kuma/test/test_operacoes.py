@@ -5,8 +5,8 @@ class TestOperacoes(TestCase):
 
 	def setUp(self):
 		self.operacoes = Operacoes()
+
+	def test_eh_primo_5():
+		self.assertEqual(self.operacao.eh_primo(5), "Should be True")
+
 		
-	def test_divisao(self):
-		self.assertEqual(self.operacoes.divisao(8,2), 4, "Should be 4")
-		
-	
