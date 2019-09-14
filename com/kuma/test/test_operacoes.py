@@ -5,8 +5,6 @@ class TestOperacoes(TestCase):
 
 	def setUp(self):
 		self.operacoes = Operacoes()
-
-	def test_eh_primo_5():
-		self.assertEqual(self.operacao.eh_primo(5), "Should be True")
-
 		
+	def test_soma(self):
+		self.assertEqual(self.operacoes.somao([8,2]), 10,"Shold be 10")
