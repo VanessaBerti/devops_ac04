@@ -7,6 +7,6 @@ class TestOperacoes(TestCase):
 		self.operacoes = Operacoes()
 		
 	def test_divisao(self):
-		self.assertEqual(self.operacoes.divisao([8,2]), 4, "Should be 4")
+		self.assertEqual(self.operacoes.divisao(8,2), 4, "Should be 4")
 		
 	
